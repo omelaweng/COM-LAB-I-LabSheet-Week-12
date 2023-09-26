@@ -4,7 +4,7 @@
 
 ### 2.2 การสร้าง branch ด้วย github desktop
 
-#### 1 การสร้าง branch ด้วย github desktop
+#### 1. การสร้าง branch ด้วย github desktop
 
 1 ) ในการสร้าง branch (หรือเปลี่ยน branch ในกรณีที่มีอยู่แล้ว) เราสามารถคลิกที่ปุ่ม Current branch ดังรูป
 
@@ -35,13 +35,13 @@
 
 ![Alt text](./Pictures/Picture-32.png)
 
-#### 2 Publish brach ขึ้นไปยัง github server
+#### 2. Publish brach ขึ้นไปยัง github server
 
 ![Alt text](./Pictures/Picture-33.png)
 
 คลิกที่ publish branch
 
-#### 3 ตรวจสอบ และย้าย branch บน github server
+#### 3. ตรวจสอบ และย้าย branch บน github server
 
 ![Alt text](./Pictures/Picture-34.png)
 
@@ -55,7 +55,7 @@ Refresh browser  หนึ่งครั้ง
 
 ขั้นตอนต่าง ๆ ในการทำงานกับ branch บน github.com ก็จะเหมือนกับที่เคยทำการทดลองไปแล้วในครั้งก่อน ๆ
 
-#### 4 เพิ่มเนื้อหาใน Branch ที่สร้างขึ้นบน Working directory
+#### 4. เพิ่มเนื้อหาใน Branch ที่สร้างขึ้นบน Working directory
 
 1 )  กลับไปที่ github desktop  คลิกที่เมนู Repository -> Show in Explorer
 
@@ -66,15 +66,88 @@ Refresh browser  หนึ่งครั้ง
 ![Alt text](./Pictures/Picture-37.png)
 
 3 ) เข้าไปในโฟลเดอร์ที่สร้างขึ้นใหม่ ให้สร้างไฟล์ html ที่มีเนื้อหาเป็น resume สำหรับสมัครงาน โดยอาจจะแสดงข้อมูลสำคัญต่อไปนี้
+
 - ประวัติการศึกษา
+
 - ประสบการณ์ในการฝึกงานหรือได้รับประกาศนียบัตร
+
 - ตำแหน่งงานที่ต้องการจะทำ
+
 - ความสามามรถด้าน software
+
 - ถ้ามีไฟล์ภาพ เสียง หรือเนื้อหาอื่นใดนอกจากข้อความ ให้ตรวจสอบว่าสามารถใช้งานได้
+
 - สามารถใช้ style sheet หรือ script ได้ และควรแยกเป็นไฟล์ต่างหาก
 
-#### 5 ตรวจสอบไฟล์ที่เปลี่ยนแปลง commit เข้าไปยัง local repository
+#### 5. ตรวจสอบไฟล์ที่เปลี่ยนแปลง commit เข้าไปยัง local repository
 
-![Alt text](image.png)
+![Alt text](./Pictures/Picture-38.png)
 
-## [>> การใช้งาน github desktop>>](W12-Labsheet-01.md)
+(1) เลือกไฟล์ที่จะ commit
+
+(2) เขียน commit message
+
+(3) commit change
+
+#### 6. ส่งการเปลี่ยนแปลงบน local ไปยัง remote repository
+
+![Alt text](./Pictures/Picture-39.png)
+
+(1) ตรวจสอบจำนวน commit ที่ได้ทำลงไป
+
+(2) Push ไปยัง origin (สามารถกดได้ทั้งสองที่ ให้ผลเหมือนกัน)
+
+เมื่อ push เสร็จ github desktop จะเสนอให้เราทำการ pull  request ซึ่งตอนนี้ยังไม่ต้องทำ 
+
+![Alt text](./Pictures/Picture-40.png)
+
+#### 7. ไปตรวจสอบการเปลี่ยนแปลงบน server  
+
+![Alt text](./Pictures/Picture-41.png)
+
+เมื่อคลิกแล้ว github desktop จะส่งไปยัง github.com ใน repository ปัจจุบัน
+
+![Alt text](./Pictures/Picture-42.png)
+
+#### 8. ย้าย branch เพื่อตรวจสอบไฟล์ว่ามีอยู่จริงบน github.com
+
+![Alt text](./Pictures/Picture-43.png)
+
+(1) คลิกที่ปุ่มชื่อ branch
+
+(2) เลือกชื่อ  branch ที่ทำงานบน local repository
+
+![Alt text](./Pictures/Picture-44.png)
+
+เมื่อเข้ามาใน branch แล้ว ให้เข้าไปดูใน folder ที่สร้างขึ้น ควรจะพบไฟล์ resume ที่สร้างขึ้นทั้งหมด
+
+![Alt text](./Pictures/Picture-45.png)
+
+(1) ปุ่มสำหรับแสดงหรือซ่อน folder tree
+
+(2) ปุ่มเลือก branch 
+
+(3) พื้นที่แสดงรายการไฟล์ (folder tree) ซึ่งจะขึ้นอยู่กับ branch ปัจจุบัน
+
+ให้ทดลองสลับไปที่ branch main และสังเกตุการเปลี่ยนแปลง
+
+(4) พื้นที่แสดงไฟล์ เมื่อคลิกเข้าไปจะเห็นประวัติการแก้ไขไฟล์ตามที่ได้ commit ไว้
+
+(5) ประวัติการแก้ไขไฟล์ต่าง ๆ  
+
+#### 9. การทำ Pull request
+
+ขั้นตอนในการทำ Pull request ก็จะมีลำดับเดียวกับที่เคยทำการทดลองไปแล้ว 
+
+ถึงแม้จะมีเมนูให้ทำ pull request ที่ในโปรแกรม github desktop แต่ในทางปฏิบัตแล้ว โปรแกรมก็จะส่งต่อการทำงานมาที่บน web browser เพียงที่เดียว
+
+![Alt text](./Pictures/Picture-46.png)
+
+ใน github desktop ให้เลือก branch ที่จะทำ pull request แล้วคลิก Preview Pull request
+
+![Alt text](./Pictures/Picture-47.png)
+
+ตรวจสอบรายละเอียดที่จะทำ Pull request แล้วคลิก Create Pull Request
+
+github desktop จะส่งต่อการทำงานไปทำบน web browser
+
