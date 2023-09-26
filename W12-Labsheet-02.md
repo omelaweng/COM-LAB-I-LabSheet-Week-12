@@ -70,7 +70,7 @@
 
 #### 8. เพิ่มเติมเนื้อหาของไฟล์ใน README.md
 
-![Alt text](image.png)
+![Alt text](./Pictures/Picture-11.png)
 
 ใส่ข้อความจำนวน 2 บรรทัด ลงใน README.md
 
