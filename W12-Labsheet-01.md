@@ -30,4 +30,4 @@ https://github.com/kontr0x/github-desktop-install
 
 ### 1.3 Authen กับ website github เพื่ออนุญาตให้ github desktop สามารถใช้งาน account ของเราได้
 
-## [>> การใช้งาน github desktop>>](W12-Labsheet-01.md)
+## [>> การใช้งานโปรแกรม github desktop ทำงานพื้นฐาน >>](W12-Labsheet-02.md)
