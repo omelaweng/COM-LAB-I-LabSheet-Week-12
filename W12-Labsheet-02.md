@@ -76,9 +76,105 @@
 
 บันทึกไฟล์ README.md
 
-#### 9. กลับไปที่โปนแกรม github desktop เพื่อตรวจสอบการเปลี่ยนแปลงที่เกิดขึ้น 
+#### 9. กลับไปที่โปนแกรม github desktop เพื่อตรวจสอบการเปลี่ยนแปลงที่เกิดขึ้น
 
 ![Alt text](./Pictures/Picture-12.png)
 
+(1) คลิกที่ Changes
+
+(2) คลิกที่ README.md
+
+(3) ตรวจสอบการเปลี่ยนแปลงของ README.md ว่าตรงกับที่เราแก้ไขไปหรือไม่ ถ้าไม่ตรง อาจจะเกิดจากที่ยังไม่ได้บันทึกไฟล์
+
+(4) ใส่ข้อความ commit ถ้าไม่ใส่ โปรแกรม github desktop จะเสนอตามที่ปรากฏในภาพ
+
+(5) คลิก Commit to main
+
+#### 10. push การเปลี่ยนแปลงขึ้นบน server (remote repository)
+ 
+![Alt text](./Pictures/Picture-13.png)
+
+(1)  ตรวจสอบจำนวนการ commit ที่เกิดขึ้น (ยังไม่ได่ push)
+
+(2)  คลิก Push origin เพื่อ push ไปยัง origin repository ใน github.com
+
+#### 11. ตรวจสอบสถานะใน github desktop 
+
+![Alt text](/Pictures/Picture-14.png)
+
+เทียบได้กับข้อความต่อไปนี้เมื่อใช้คำสั่ง git status ใน git bash
+
+``` md
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+
+#### 12. กลับไปตรวจสอบสถานะใน github repository web page
+
+![Alt text](./Pictures/Picture-15.png)
+
+#### 13. กด refresh 1 ครั้ง เพื่อดูการเปลี่ยนแปลง
+
+![Alt text](./Pictures/Picture-16.png)
+
+(1) ให้คลิกที่ 2 Commits แล้วจดรหัสการ commit ที่เป็นเลขฐาน 16 ไว้ทั้งสอง commit
+
+(2) สังเกตุว่าข้อความจะไม่แบ่งบรรทัด เนื่องจากหลักการเขียน markdown จะต้องเคาะเว้นว่าง 1 บรรทัด หรือใส่อักขระช่องว่าง (space bar)  สองตัวที่ท้ายบรรทัด เพื่อบอกให้ github markdown parser รู้ว่าต้องการเว้นบรรทัด (เราจะแก้เนื้อหานี้ในลำดับถัดไป)
+
+#### 14. ตรวจสอบความสอดคล้องต้องกันระหว่าง local และ remote repository
+
+![Alt text](./Pictures/Picture-17.png)
+
+
+กลับไปที่ github desktop ให้คลิกที่รายการ commit ต่างๆ แล้วบันทึกชื่อ พร้อมรัสฐาน 16  เปรียบเทียบว่าตรงกับบน web browser หรือไม่ อย่างไร
+
+#### 15. แก้ไขไฟล์ README.md (บน web browser) ให้แสดงผลได้อย่างถูกต้อง
+
+1 ) คลิกที่ปุ่มดินสอ เพื่อแก้ไขไฟล์ README.md
+
+![Alt text](./Pictures/Picture-18.png)
+
+2 )  github จะเปิดหน้าต่างการแก้ไขดังรูป
+
+![Alt text](./Pictures/Picture-19.png)
+
+3 )  กดปุ่ม Preview เพื่อแสดงตัวอย่างผลลัพธ์ที่จะได้
+
+![Alt text](./Pictures/Picture-20.png)
+
+4 )  คลิกกลับมาที่ Edit แล้วเพิ่มบรรทัดว่าง 1 ระหว่างบรรทัดที่ 4 และ 5
+
+![Alt text](./Pictures/Picture-21.png)
+
+5 )  กดปุ่ม Preview เพื่อแสดงตัวอย่างผลลัพธ์ที่ได้
+
+![Alt text](./Pictures/Picture-22.png)
+
+เมื่อได้ผลตามต้องการ ให้ commit change  
+
+6 )  ใส่ข้อความ commit และกด commit change
+
+![Alt text](./Pictures/Picture-23.png)
+
+7 )  ตรวจสอบและจดบันทึกประวัติการ commit เพื่อไว้เทียบกับ github desktop
+
+![Alt text](./Pictures/Picture-24.png)
+
+#### 16. ตรวจสอบและทำ git pull ที่ github desktop
+
+![Alt text](./Pictures/Picture-25.png)
+
+คลิก Pull origin เพื่อดึงการเปลี่ยนแปลงบน remote มาที่ local repository
+
+#### 17. ตรวจสอบประวัติการ commit ที่บน github desktop เทียบกับที่บน  server
+
+![Alt text](./Pictures/Picture-26.png)
+
+ตรวจสอบให้ครบทั้งชื่อการ commit และ hash code (เลขฐาน 16) ของแต่ละ commit ว่าตรงกันหรือไม่ (เทียบกันเป็นตาราง markdown)
+
+#### 18. ตรวจสอบการเปลี่ยนแปลงในไฟล์ README.md โดนการเปิดใน text editor
+
+![Alt text](./Pictures/Picture-27.png)
 
 ## [>> การใช้งาน github desktop>>](W12-Labsheet-01.md)
