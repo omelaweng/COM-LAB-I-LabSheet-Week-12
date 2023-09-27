@@ -8,7 +8,7 @@
 
 ![Alt text](./Pictures/Picture-04.png)
 
-#### 2. Clone จาก remote (origin) บน github.com มายัง local repository
+#### 2. ให้ fork repo มาจาก https://github.com/Computer-Lab-I-2566/github_demo แล้ว Clone จาก remote (origin) บน github.com มายัง local repository
 
 ![Alt text](./Pictures/Picture-05.png)
 
