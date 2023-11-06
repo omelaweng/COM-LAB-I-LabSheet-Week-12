@@ -1,6 +1,7 @@
 # COM-LAB-I-LabSheet-Week-12
 
 Computer Laboratory
+## 65030027 เขมเสฎฐ์ ลิมวัฒโนชัย
 GitHub Desktop training.
 
 การใช้ github desktop ในการทำงานร่วมกับ repository
