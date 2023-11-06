@@ -1,5 +1,8 @@
 # COM-LAB-I-LabSheet-Week-12
 
+Computer Laboratory
+GitHub Desktop training.
+
 การใช้ github desktop ในการทำงานร่วมกับ repository
 
 ## เครื่องมือช่วยในการใช้งาน github
